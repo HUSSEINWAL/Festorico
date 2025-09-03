@@ -1,0 +1,176 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #242424;
+}
+
+header {
+  background-image: url('/images/outdoor.png'), url('/images/business.png'), url('/images/usualclass.png');
+  animation: moveBackgrounds 3s linear infinite;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 15%;
+
+}
+
+.menu-reserv {
+  padding: 15px;
+  justify-content: space-evenly;
+}
+
+a {
+  font-size: 40px;
+  font-weight: 400;
+  color: #646cff;
+  text-decoration: inherit;
+  padding: 15px;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+h1 {
+  color: antiquewhite;
+  font-size: 3.2em;
+  line-height: 0;
+}
+
+.space-logo {
+  text-align: center;
+}
+
+.space-logo h1 {
+  color: antiquewhite;
+  font-size: 3.2em;
+  line-height: 0;
+  padding-top: 0px;
+
+}
+
+.leisures {
+  text-align: center;
+}
+
+button {
+  color: #747bff;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  padding-right: 5px;
+  font-size: 30px;
+  padding: 15px 30px;
+  margin: 10px 0;
+
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+article,
+aside {
+  flex: 1;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+label {
+  color: #ffff;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.seemore {
+  color: #ffffff;
+  padding-right: 5px;
+  font-size: 30px;
+  padding: 15px 30px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+p1,
+p2 {
+  font-size: 30px;
+  color: #ffff;
+  font-weight: bold;
+  display: block;
+}
+
+h2 {
+  font-size: 30px;
+
+}
+
+.bottoms {
+  display: flex;
+}
+
+.footers {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footers p,
+label {
+  font-size: 30px;
+  color: #ffff;
+}
+
+.footers label a {
+  font-size: 30px;
+  color: #ffff;
+  text-decoration-line: underline;
+}

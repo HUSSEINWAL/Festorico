@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 100px;
+}
+
+.book-table {
+    justify-content: space-between;
+    display: flex;
+    margin: 5px;
+    padding: 4px;
+}
+
+.customer-info input {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.customer-info input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.customer-info input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+h1 {
+    font-size: 40px;
+}
